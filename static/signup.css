@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Mulish:ital,wght@0,300;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image:  url(static
+/image/matumainiteam.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: 'Mulish', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-family: 'Mulish';
+    color: #fff;
+}
+
+.formcontainer{
+    background-color: rgb(41, 41, 107);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.formcontainer h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formcontainer a{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form-control{
+    position: relative;
+    margin: 20px 0 40px;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+}
